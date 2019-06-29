@@ -1,5 +1,9 @@
 
 
+
+
+
+
 body{
 
 	font-family: 'Open Sans', sans-serif;
@@ -19,8 +23,7 @@ body{
 	background-repeat: no-repeat;
 	min-height:75vh;
 
-	transition: background-image 0.1s ease-in-out;
-}
+	}
 
 
 
@@ -37,11 +40,7 @@ a{
 	color: #800080;
 	font-size: 1.1rem;
 }
-.navbar-dark .navbar-toggler{
-	border-color:  #800080;
-}
 
-}
 .navbar-nav{
 		padding-top: 20px;
 
@@ -125,6 +124,10 @@ a{
 	color: #800080;
 	font-size:25px;
 }
+
+
+
+
 
 
 /*cloud consulting*/
