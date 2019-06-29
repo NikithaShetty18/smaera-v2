@@ -1,0 +1,49 @@
+ body{
+
+	font-family: 'Open Sans', sans-serif;
+	margin:0;
+	padding:0;
+	min-height: 100%;
+	background-color:#f5f9f8;
+}
+
+
+.page-content{
+	background-color: white;
+	border:0.6px  ridge #adafb2;
+	box-shadow: 1px 1px 10px;
+	margin:60px auto 60px auto;
+	padding-top: 50px;
+	padding-left:40px;
+	padding-bottom: 80px;
+	font-size:.9em;
+	line-height: 25px;
+	letter-spacing: 1px;
+
+
+	
+}
+
+ .page-content h4{
+  	padding-bottom:30px;
+  	font-weight: 700;
+  	color:black;
+  }
+
+.page-content p{
+ color:#6b6662;
+}
+
+.page-content ul{
+	color:#6b6662;
+	padding-left:3px;
+
+	
+}
+
+.page-content li{
+	color:#6b6662;
+	padding-left: 30px;
+
+
+}

@@ -1,0 +1,156 @@
+body{
+
+	font-family: 'Open Sans', sans-serif;
+	margin:0;
+	padding:0;
+	min-height: 100%;
+
+	
+	}
+
+
+
+.site-header{
+	background-image:url(images/backgroungImg.jpg);
+	background-size:cover;
+	background-position:top center;
+	background-repeat: no-repeat;
+	min-height:75vh;
+
+	transition: background-image 0.1s ease-in-out;
+}
+
+
+
+a{
+	color:#800080;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: #1a66b4;
+	font-weight:bold;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #800080;
+	font-size: 1.1rem;
+}
+.navbar-dark .navbar-toggler{
+	border-color:  #800080;
+}
+
+}
+.navbar-nav{
+		padding-top: 20px;
+
+}
+
+.dropdown-menu{
+
+	background-color:red;
+	padding-top:0;
+	padding-bottom: 0;
+
+}
+
+.dropdown-item{
+	color:#1a66b4;
+	background-color:#f4be28;
+	text-align: center;
+
+}
+
+
+.dropdown-item:hover{
+	font-size:0.9rem;
+	color:#800080;
+	
+	
+}	
+
+.img-text{
+	
+	color:grey;
+	text-align: center;
+	color:#35393d;
+
+	padding-top:10px;
+}
+
+.content1{
+	
+	font-size:.9em;
+	color:#6b6662;
+	padding-top:35px;
+	line-height: 20px;
+	letter-spacing: 1px;
+}
+.fas{
+	color:#f4be28;
+	font-size:50px;
+
+}
+
+.page-icons p{
+	
+	color:#6b6662;
+	
+}
+.page-icons h3{
+	
+	color:grey;
+	color:#35393d;
+}
+
+.footer{
+	background-color:#f4be28;
+	font-size:13px;
+	color: #1a66b4;
+	font-weight: bold;
+
+}
+.footerlogo{
+	padding-top: 70px;
+	padding-left:20px;
+
+}
+.footer-item p{
+	font-size:1.2em;
+
+	
+}
+.footer-item .fas{
+	color: #800080;
+	font-size:25px;
+}
+
+
+
+
+ /*.page-content h2{
+  	padding-bottom:30px;
+  	color:black;
+  }
+
+  .page-content h6{
+  		font-weight: 700;
+  }
+
+.page-content p{
+ color:#6b6662;
+}
+
+.page-content ul{
+	color:#6b6662;
+	padding-left:3px;
+
+	
+}
+
+.page-content li{
+	color:#877d72;
+	padding-left: 30px;
+
+
+}
+*/
