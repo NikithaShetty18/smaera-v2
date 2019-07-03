@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400|Source+Sans+Pro:200,400,600&display=swap');
+
+
+:root {
+	/*
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    */
+
+--font-family-sans-serif:'Source Sans Pro', -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+--  
+
+
+/*page variables*/
+  --font-family-serif: 'Merriweather',serif;
+  --yellow:#f4be28;
+  --purple:#800080;
+  --blue:#1a66b4;
+  --grey:#35393d;
+  --light-grey:#6b6662;
+
+
+
+
+
+--font-family-text: var(--font-family-serif);
+--color-head-text: var(--grey);
+--color-paragraph-text: var(--light-grey);
+--color-purple: var(--purple);
+--color-text: var(--blue);
+--color-background:var(--yellow);
+
+}
+
+body{
+	font-family: var(--font-family-serif);
+	margin:0;
+	padding: 0;
+}
+
+
+/* navbar-start*/
+.navbar-dark .navbar-nav .nav-link{
+	color:  var(--blue);
+	font-weight:bold;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: var(--purple);
+}
+
+.dropdown:hover >.dropdown-menu{
+	display:block;
+	text-align: center;
+}
+
+.dropdown-item{
+	color:var(--blue);
+	font-weight: bold;
+	padding-top:0;
+
+}
+
+
+.dropdown-item:hover{
+	color: var(--purple);
+	font-size: 1.1rem;
+	background-color: transparent;
+}
+
+.dropdown-menu{
+	background-color: var(--yellow);
+	border-color:var(--blue);
+
+}
+
+/* navbar-end*/
+
+
+
+
+/*content*/
+
+.heading-text{
+	color: var(--grey);
+	font-weight:normal;
+}
+
+.paragraph-text{
+	color: var(--light-grey);
+	line-height: 30px;
+	font-size:16px;
+
+}
+
+/*content end*/
+
+
+
+/*icons*/
+.fas{
+	color:var(--yellow);
+	font-size:50px;
+
+}
+
+.page-icons p{
+	color:#6b6662;
+	text-align:center;
+	
+}
+
+.page-icons h3{
+	
+	color:grey;
+	color:#35393d;
+}
+/*icons end*/
+
+
+
+/*footer*/
+
+.footer{
+	background-color:#f4be28;
+	font-size:13px;
+	color: #1a66b4;
+	font-weight: bold;
+
+}
+
+.footerlogo{
+	padding-top: 70px;
+	padding-left:20px;
+
+}
+.footer-item p{
+	font-size:1.2em;
+
+
+	
+}
+.footer-item .fas{
+	color: #800080;
+	font-size:25px;
+}
+/*footer end*/
+
+
+/*page-content*/
+.page-content{
+	background-color: white;
+	border:0.6px  ridge #adafb2;
+	box-shadow: 1px 1px 10px;
+	margin:60px auto;
+}
+
+
+
+/*cloud-consulting page*/
+.card-img-top{
+	width:100%;
+	height:40vh;
+	object-fit:cover;
+}
+
+.card{
+	height:100%;
+}
